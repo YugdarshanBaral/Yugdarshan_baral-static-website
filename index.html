@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Yugdarshan Baral, IT Student specializing in System Administration, Server Management, Linux, and Microsoft Office.">
+    <meta name="keywords"
+        content="Yugdarshan Baral, IT Student, System Administration, Server Management, Linux, Microsoft Office">
+    <meta name="author" content="Yugdarshan Baral">
+    <title>Yugdarshan Baral | IT Student & System Administrator</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Web Components -->
+    <script src="js/components.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header Navigation Injection -->
+    <custom-navbar></custom-navbar>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero" style="padding-top: 150px;">
+            <div class="container grid-2">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span style="color: var(--primary-red);">Yugdarshan Baral</span></h1>
+                    <h2 style="color: var(--secondary-blue); font-size: 1.8rem; margin-bottom: 2rem;">IT Student &amp;
+                        Future System Administrator</h2>
+                    <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+                        Passionate about technology, server management, and creating efficient IT infrastructures.
+                        Always eager to learn and solve complex problems.
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image" style="text-align: center;">
+                    <div
+                        style="width: 300px; height: 300px; background-color: var(--light-bg); border-radius: 50%; margin: 0 auto; display: flex; align-items: center; justify-content: center; border: 5px solid var(--primary-red); overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                        <svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="var(--secondary-blue)"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" style="background-color: var(--light-bg);">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="grid-2">
+                    <div>
+                        <h3>Who I Am</h3>
+                        <p>I am an enthusiastic Information Technology student with a strong foundation in system
+                            administration and infrastructure management. My goal is to ensure systems run securely,
+                            efficiently, and effectively.</p>
+                        <p>I believe in continuous learning, constantly updating my knowledge with the latest
+                            technologies in the IT landscape.</p>
+                    </div>
+                    <div>
+                        <h3>My Approach</h3>
+                        <p>Whether it's managing a Linux server or deploying services, I focus on best practices,
+                            performance optimization, and automation where possible.</p>
+                        <ul
+                            style="margin-top: 1rem; padding-left: 1rem; list-style-type: disc; color: var(--text-gray);">
+                            <li style="margin-bottom: 0.5rem;">Proactive problem solving</li>
+                            <li style="margin-bottom: 0.5rem;">Documentation and standardization</li>
+                            <li style="margin-bottom: 0.5rem;">Continuous monitoring and improvement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Core Skills</h2>
+                <div class="grid-2">
+                    <!-- Skill 1 -->
+                    <div style="padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s ease;"
+                        onmouseover="this.style.transform='translateY(-5px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary-red);">⚙️</div>
+                        <h3>System Administration</h3>
+                        <p>Proficient in configuring, maintaining, and troubleshooting computer systems and networks to
+                            ensure optimal performance.</p>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div style="padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s ease;"
+                        onmouseover="this.style.transform='translateY(-5px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--secondary-blue);">🖥️</div>
+                        <h3>Server Management</h3>
+                        <p>Experience in deploying, securing, and maintaining physical and virtual servers for various
+                            organizational needs.</p>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div style="padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s ease;"
+                        onmouseover="this.style.transform='translateY(-5px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary-red);">🐧</div>
+                        <h3>Linux</h3>
+                        <p>Fluent in Linux environments, command-line operations, shell scripting, and user/permission
+                            management.</p>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div style="padding: 2rem; border: 1px solid #eee; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: transform 0.3s ease;"
+                        onmouseover="this.style.transform='translateY(-5px)'"
+                        onmouseout="this.style.transform='translateY(0)'">
+                        <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--secondary-blue);">📊</div>
+                        <h3>Microsoft Office</h3>
+                        <p>Advanced practical knowledge of Microsoft Word, Excel, PowerPoint, and Access for enterprise
+                            administration tasks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" style="background-color: var(--light-bg);">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                    <p style="margin-bottom: 2rem; font-size: 1.1rem;">
+                        I am currently open for opportunities and networking. Whether you have a question or just want
+                        to say hi, I'll try my best to get back to you!
+                    </p>
+                    <a href="mailto:contact@example.com" class="btn btn-primary"
+                        style="font-size: 1.2rem; padding: 1rem 3rem;">Say Hello</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Injection -->
+    <custom-footer></custom-footer>
+</body>
+
+</html>
